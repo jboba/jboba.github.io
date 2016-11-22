@@ -637,7 +637,7 @@ html { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 *, *:before, *:after { -webkit-box-sizing: inherit; box-sizing: inherit; }
 
-@font-face { font-family: "svgfont"; src: url("https://watch1k.github.io/Teremok/build/css/fonts/svgfont.eot"); src: url("https://watch1k.github.io/Teremok/build/css/fonts/svgfont.eot?#iefix") format("eot"), url("https://watch1k.github.io/Teremok/build/css/fonts/svgfont.woff") format("woff"), url("https://watch1k.github.io/Teremok/build/css/fonts/svgfont.woff2") format("woff2"), url("https://watch1k.github.io/Teremok/build/css/fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "svgfont"; src: url("../css/fonts/svgfont.eot"); src: url("../css/fonts/svgfont.eot?#iefix") format("eot"), url("../css/fonts/svgfont.woff") format("woff"), url("../css/fonts/svgfont.woff2") format("woff2"), url("../css/fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 .icon, [class^="icon-"], [class*=" icon-"] { font-family: "svgfont"; font-style: normal; font-weight: normal; text-rendering: auto; speak: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 .icon, [class^="icon-"], [class*=" icon-"] { display: inline-block; }
@@ -769,21 +769,21 @@ a.ui-button:hover, a.ui-button:focus { color: #2b2b2b; text-decoration: none; }
 
 .ui-state-disabled .ui-icon { filter: Alpha(Opacity=35); }
 
-.ui-icon { width: 16px; height: 16px; background-image: url("https://watch1k.github.io/Teremok/build/css/images/ui-icons_444444_256x240.png"); }
+.ui-icon { width: 16px; height: 16px; background-image: url("../css/images/ui-icons_444444_256x240.png"); }
 
-.ui-widget-content .ui-icon, .ui-widget-header .ui-icon { background-image: url("https://watch1k.github.io/Teremok/build/css/images/ui-icons_444444_256x240.png"); }
+.ui-widget-content .ui-icon, .ui-widget-header .ui-icon { background-image: url("../css/images/ui-icons_444444_256x240.png"); }
 
-.ui-state-hover .ui-icon, .ui-state-focus .ui-icon { background-image: url("https://watch1k.github.io/Teremok/build/css/images/ui-icons_555555_256x240.png"); }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon { background-image: url("../css/images/ui-icons_555555_256x240.png"); }
 
-.ui-button:hover .ui-icon, .ui-button:focus .ui-icon { background-image: url("https://watch1k.github.io/Teremok/build/css/images/ui-icons_555555_256x240.png"); }
+.ui-button:hover .ui-icon, .ui-button:focus .ui-icon { background-image: url("../css/images/ui-icons_555555_256x240.png"); }
 
-.ui-state-active .ui-icon, .ui-button:active .ui-icon { background-image: url("https://watch1k.github.io/Teremok/build/css/images/ui-icons_ffffff_256x240.png"); }
+.ui-state-active .ui-icon, .ui-button:active .ui-icon { background-image: url("../css/images/ui-icons_ffffff_256x240.png"); }
 
-.ui-state-highlight .ui-icon, .ui-button .ui-state-highlight.ui-icon { background-image: url("https://watch1k.github.io/Teremok/build/css/images/ui-icons_777620_256x240.png"); }
+.ui-state-highlight .ui-icon, .ui-button .ui-state-highlight.ui-icon { background-image: url("../css/images/ui-icons_777620_256x240.png"); }
 
-.ui-state-error .ui-icon, .ui-state-error-text .ui-icon { background-image: url("https://watch1k.github.io/Teremok/build/css/images/ui-icons_cc0000_256x240.png"); }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon { background-image: url("../css/images/ui-icons_cc0000_256x240.png"); }
 
-.ui-button .ui-icon { background-image: url("https://watch1k.github.io/Teremok/build/css/images/ui-icons_777777_256x240.png"); }
+.ui-button .ui-icon { background-image: url("../css/images/ui-icons_777777_256x240.png"); }
 
 .ui-icon-blank { background-position: 16px 16px; }
 
@@ -1180,10 +1180,10 @@ a.ui-button:hover, a.ui-button:focus { color: #2b2b2b; text-decoration: none; }
 .slick-dots li.slick-active button { background: #000; }
 .slick-dots button { display: block; width: 10px; height: 10px; background: #fff; -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); cursor: pointer; font: 0/0 a; text-shadow: none; color: transparent; border-radius: 50%; }
 
-@font-face { font-family: PTSans-Regular; src: url("https://watch1k.github.io/Teremok/build/css/fonts/PTSans-Regular.woff2") format("woff2"), url("https://watch1k.github.io/Teremok/build/css/fonts/PTSans-Regular.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-family: PTSans-Bold; src: url("https://watch1k.github.io/Teremok/build/css/fonts/PTSans-Bold.woff2") format("woff2"), url("https://watch1k.github.io/Teremok/build/css/fonts/PTSans-Bold.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-family: PTSans-BoldItalic; src: url("https://watch1k.github.io/Teremok/build/css/fonts/PTSans-BoldItalic.woff2") format("woff2"), url("https://watch1k.github.io/Teremok/build/css/fonts/PTSans-BoldItalic.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-family: GothamPro-Bold; src: url("https://watch1k.github.io/Teremok/build/css/fonts/GothamPro-Bold.woff2") format("woff2"), url("https://watch1k.github.io/Teremok/build/css/fonts/GothamPro-Bold.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: PTSans-Regular; src: url("../css/fonts/PTSans-Regular.woff2") format("woff2"), url("../css/fonts/PTSans-Regular.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: PTSans-Bold; src: url("../css/fonts/PTSans-Bold.woff2") format("woff2"), url("../css/fonts/PTSans-Bold.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: PTSans-BoldItalic; src: url("../css/fonts/PTSans-BoldItalic.woff2") format("woff2"), url("../css/fonts/PTSans-BoldItalic.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: GothamPro-Bold; src: url("../css/fonts/GothamPro-Bold.woff2") format("woff2"), url("../css/fonts/GothamPro-Bold.woff") format("woff"); font-weight: normal; font-style: normal; }
 body { font-size: 18px; line-height: 1.2; font-family: PTSans-Regular, Arial, sans-serif; -webkit-tap-highlight-color: transparent; }
 body.is-locked { overflow: hidden; }
 
@@ -1213,13 +1213,13 @@ img { display: block; max-width: 100%; }
 .call__number { display: block; font-size: 24px; font-family: GothamPro-Bold, Arial, sans-serif; color: #fff; text-decoration: none; }
 .call__btn { display: inline-block; margin-top: 3px; padding: 9px 23px; font-size: 14px; letter-spacing: 0.05em; }
 
-.screen { position: relative; background: url(https://watch1k.github.io/Teremok/build/img/bg/screen_bg.jpg) no-repeat top center/cover; min-height: 600px; height: 0; }
+.screen { position: relative; background: url(../img/bg/screen_bg.jpg) no-repeat top center/cover; min-height: 600px; height: 0; }
 .screen__inner { height: 100%; text-align: center; }
 .screen__inner::before { content: ""; display: inline-block; vertical-align: middle; height: 100%; }
 .screen__title { display: inline-block; vertical-align: middle; margin-top: -50px; font-size: 45px; text-transform: uppercase; line-height: 1.33; color: #fff; text-align: center; font-family: GothamPro-Bold, Arial, sans-serif; }
 .screen__scroll { position: absolute; left: 50%; bottom: 13%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); font-size: 20px; text-transform: uppercase; text-decoration: none; letter-spacing: 0.025em; color: #fff; font-family: PTSans-Bold, Arial, sans-serif; -webkit-transition: all 0.25s; transition: all 0.25s; }
 .screen__scroll:hover { color: #ef7f1a; }
-.screen__scroll::after { position: absolute; left: 50%; bottom: -31px; margin-left: -20px; content: ""; background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 39px; height: 24px; background-position: 0px -202px; -webkit-animation: arrow 1.5s ease infinite alternate; animation: arrow 1.5s ease infinite alternate; }
+.screen__scroll::after { position: absolute; left: 50%; bottom: -31px; margin-left: -20px; content: ""; background-image: url("../img/icons.png"); width: 39px; height: 24px; background-position: 0px -202px; -webkit-animation: arrow 1.5s ease infinite alternate; animation: arrow 1.5s ease infinite alternate; }
 
 @-webkit-keyframes arrow { 0%, 100% { -webkit-transform: translateY(5px); transform: translateY(5px); }
   100% { -webkit-transform: translateY(15px); transform: translateY(15px); } }
@@ -1255,7 +1255,7 @@ img { display: block; max-width: 100%; }
 .calculate__inner-col:last-of-type { padding-left: 30px; }
 .calculate__label { display: block; position: relative; margin-bottom: 13px; cursor: pointer; }
 .calculate__label::before { display: inline-block; vertical-align: middle; margin-right: 7px; height: 20px; width: 20px; border: 1px solid #d1d1d1; background-color: #ffffff; content: ""; }
-.calculate__label::after { position: absolute; top: 8px; left: 4px; background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 13px; height: 11px; background-position: -219px -129px; content: ""; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); -webkit-transition: 0.3s ease-in; transition: 0.3s ease-in; }
+.calculate__label::after { position: absolute; top: 8px; left: 4px; background-image: url("../img/icons.png"); width: 13px; height: 11px; background-position: -219px -129px; content: ""; -webkit-transform: scale(0); -ms-transform: scale(0); transform: scale(0); -webkit-transition: 0.3s ease-in; transition: 0.3s ease-in; }
 .calculate__btn { display: inline-block; margin-top: 45px; }
 .calculate__popup { cursor: auto; position: absolute; top: 50%; left: 50%; letter-spacing: 0.025em; -webkit-transform: translateX(-50%) translateY(-50%); -ms-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); width: 360px; border-radius: 5px 5px 0 0; z-index: 200; -webkit-box-shadow: 0 2px 25px rgba(0, 0, 0, 0.3), 0 0px 1px #ced4d7; box-shadow: 0 2px 25px rgba(0, 0, 0, 0.3), 0 0px 1px #ced4d7; }
 .calculate__popup-inner { padding: 20px 40px 20px; background-color: #fff; border: 1px solid #ced4d7; *zoom: 1; }
@@ -1270,7 +1270,7 @@ img { display: block; max-width: 100%; }
 .calculate__popup-btn { float: right; margin-top: 15px; padding: 8px 24px; background-color: #bababa; border-radius: 7px; font-size: 14px; font-family: PTSans-Bold, Arial, sans-serif; text-transform: none; letter-spacing: 0.075em; }
 .calculate__popup-btn:hover { background-color: #797ed4; }
 .calculate__popup-btn:active { background-color: #4b4f9b; }
-.calculate__popup-close { position: absolute; top: 20px; right: 20px; cursor: pointer; background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 13px; height: 13px; background-position: -202px -129px; -webkit-transition: all 0.25s; transition: all 0.25s; }
+.calculate__popup-close { position: absolute; top: 20px; right: 20px; cursor: pointer; background-image: url("../img/icons.png"); width: 13px; height: 13px; background-position: -202px -129px; -webkit-transition: all 0.25s; transition: all 0.25s; }
 .calculate__popup-close:hover { opacity: 0.75; }
 
 .ui-slider-horizontal { height: 10px; }
@@ -1299,21 +1299,21 @@ img { display: block; max-width: 100%; }
 .works__more { display: none; font-size: 15px; font-family: PTSans-Bold, Arial, sans-serif; background-color: transparent; }
 .works__img { width: 100%; }
 
-.features { padding-top: 88px; background: url(https://watch1k.github.io/Teremok/build/img/bg/features_bg-1.jpg) no-repeat top center/cover; }
+.features { padding-top: 88px; background: url(../img/bg/features_bg-1.jpg) no-repeat top center/cover; }
 .features.is-mobile { display: none; padding-top: 0; }
 .features.is-mobile .request-form { padding-left: 0; }
 .features__descr { margin-top: 13px; font-size: 24px; text-align: center; }
 .features__row { max-width: 800px; margin: 60px auto 68px; font-size: 0; }
 .features-item { display: inline-block; vertical-align: top; padding: 0 15px; width: 33.33333%; text-align: center; }
 .features-item__pic { margin: 0 auto 15px; }
-.features-item__pic--1 { background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 118px; height: 97px; background-position: -122px 0px; }
-.features-item__pic--1:hover { background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 118px; height: 97px; background-position: 0px 0px; }
-.features-item__pic--2 { background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 69px; height: 96px; background-position: -244px -100px; }
-.features-item__pic--2:hover { background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 69px; height: 96px; background-position: -244px 0px; }
-.features-item__pic--3 { background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 97px; height: 97px; background-position: -101px -101px; }
-.features-item__pic--3:hover { background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 97px; height: 97px; background-position: 0px -101px; }
+.features-item__pic--1 { background-image: url("../img/icons.png"); width: 118px; height: 97px; background-position: -122px 0px; }
+.features-item__pic--1:hover { background-image: url("../img/icons.png"); width: 118px; height: 97px; background-position: 0px 0px; }
+.features-item__pic--2 { background-image: url("../img/icons.png"); width: 69px; height: 96px; background-position: -244px -100px; }
+.features-item__pic--2:hover { background-image: url("../img/icons.png"); width: 69px; height: 96px; background-position: -244px 0px; }
+.features-item__pic--3 { background-image: url("../img/icons.png"); width: 97px; height: 97px; background-position: -101px -101px; }
+.features-item__pic--3:hover { background-image: url("../img/icons.png"); width: 97px; height: 97px; background-position: 0px -101px; }
 .features-item__text { font-size: 18px; line-height: 1.33; font-family: PTSans-Bold, Arial, sans-serif; }
-.features__leader { padding: 38px 0 80px; background: url(https://watch1k.github.io/Teremok/build/img/bg/features_bg-2.jpg) no-repeat top center/cover; }
+.features__leader { padding: 38px 0 80px; background: url(../img/bg/features_bg-2.jpg) no-repeat top center/cover; }
 .features.is-mobile .features__leader { background: #035; padding-top: 25px; padding-bottom: 55px; }
 .features__col { max-width: 700px; float: right; margin-left: 33.33%; }
 .features.is-mobile .features__col { max-width: none; margin-left: 0; }
@@ -1329,7 +1329,7 @@ img { display: block; max-width: 100%; }
 
 .request-form { font-size: 0; }
 .request-form__style { display: inline-block; vertical-align: middle; position: relative; margin-right: 29px; max-width: 360px; }
-.request-form__style::before { position: absolute; top: -webkit-calc(50% - 10px); top: calc(50% - 10px); left: 30px; content: ""; background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 24px; height: 24px; background-position: -202px -101px; }
+.request-form__style::before { position: absolute; top: -webkit-calc(50% - 10px); top: calc(50% - 10px); left: 30px; content: ""; background-image: url("../img/icons.png"); width: 24px; height: 24px; background-position: -202px -101px; }
 .request-form__field { width: 100%; padding: 0 33px 0 74px; height: 60px; line-height: 60px; background-color: #fff; font-family: PTSans-Regular, Arial, sans-serif; font-size: 24px; color: #a2a2a2; }
 .request-form__field::-webkit-input-placeholder { color: #a2a2a2; font-size: 24px; }
 .request-form__field::-moz-placeholder { color: #a2a2a2; font-size: 24px; }
@@ -1395,8 +1395,8 @@ img { display: block; max-width: 100%; }
 .accordion__content--color { color: #ef7f1a; }
 .accordion__icon { position: absolute; right: 19px; top: -webkit-calc(50% - 12px); top: calc(50% - 12px); color: #a2b333; font-size: 24px; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); -webkit-transition: 0.3s ease-in; transition: 0.3s ease-in; }
 
-.ask { padding: 70px 0 80px; background: url(https://watch1k.github.io/Teremok/build/img/bg/ask_bg.jpg) no-repeat top center/cover; color: #fff; }
-.ask.is-mobile { display: none; background-image: url(https://watch1k.github.io/Teremok/build/img/bg/features_bg-3.jpg); background-position: center center; background-size: cover; }
+.ask { padding: 70px 0 80px; background: url(../img/bg/ask_bg.jpg) no-repeat top center/cover; color: #fff; }
+.ask.is-mobile { display: none; background-image: url(../img/bg/features_bg-3.jpg); background-position: center center; background-size: cover; }
 .ask__col { float: right; width: 670px; }
 .ask__title { margin-bottom: 20px; font-size: 30px; font-family: GothamPro-Bold, Arial, sans-serif; }
 .ask__descr { margin-bottom: 20px; font-size: 24px; }
@@ -1519,9 +1519,9 @@ img { display: block; max-width: 100%; }
  .video{ padding-bottom: 70px; } }
 @media only screen and (max-width: 1023px){
  .works__item{ width: 50%; padding: 0 15px; }
- .features-item__pic--1{ background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 118px; height: 97px; background-position: 0px 0px; }
- .features-item__pic--2{ background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 69px; height: 96px; background-position: -244px 0px; }
- .features-item__pic--3{ background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 97px; height: 97px; background-position: 0px -101px; }
+ .features-item__pic--1{ background-image: url("../img/icons.png"); width: 118px; height: 97px; background-position: 0px 0px; }
+ .features-item__pic--2{ background-image: url("../img/icons.png"); width: 69px; height: 96px; background-position: -244px 0px; }
+ .features-item__pic--3{ background-image: url("../img/icons.png"); width: 97px; height: 97px; background-position: 0px -101px; }
  .features__leader{ background-position: 39% center; }
  .request-form__btn{ padding-left: 20px; padding-right: 20px; } }
 @media only screen and (max-width: 767px){
@@ -1542,7 +1542,7 @@ img { display: block; max-width: 100%; }
  .screen{ min-height: 320px; }
  .screen__title{ max-width: 90%; font-size: 18px; }
  .screen__scroll{ left: 10%; right: 10%; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); text-align: center; font-size: 14px; }
- .screen__scroll::after{ bottom: -15px; margin-left: -10px; background-image: url("https://watch1k.github.io/Teremok/build/img/icons.png"); width: 19.5px; height: 12px; background-position: 0px -101px; background-size: 156.5px 113px; }
+ .screen__scroll::after{ bottom: -15px; margin-left: -10px; background-image: url("../img/icons.png"); width: 19.5px; height: 12px; background-position: 0px -101px; background-size: 156.5px 113px; }
  .calculate__output{ left: -45px !important; }
  .calculate__sup{ left: 10px; margin-top: 15px; font-size: 15px; }
  .calculate__row{ margin-top: 30px; }

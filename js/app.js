@@ -282,7 +282,7 @@ $(document).ready(function () {
 	})();
 
 	(function () {
-		var myLatLng = [59.167033, 39.971940];
+		var myLatLng = [59.968349, 30.473927];
 		ymaps.ready(init);
 		var myMap;
 

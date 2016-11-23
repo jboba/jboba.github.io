@@ -1198,7 +1198,7 @@ h2 { font-size: 30px; text-align: center; font-family: GothamPro-Bold, Arial, sa
 
 img { display: block; max-width: 100%; }
 
-.header { position: relative; z-index: 1; padding: 17px 0; background-color: #165231; }
+.header { position: relative; z-index: 1; padding: 17px 0; background-color: black; }
 .header__logo { float: left; }
 .header__call { float: right; *zoom: 1; }
 .header__call:after { content: " "; display: table; clear: both; }
@@ -1213,7 +1213,7 @@ img { display: block; max-width: 100%; }
 .call__number { display: block; font-size: 24px; font-family: GothamPro-Bold, Arial, sans-serif; color: #fff; text-decoration: none; }
 .call__btn { display: inline-block; margin-top: 3px; padding: 9px 23px; font-size: 14px; letter-spacing: 0.05em; }
 
-.screen { position: relative; background: url(../img/bg/screen_bg.jpg) no-repeat top center/cover; min-height: 600px; height: 0; }
+.screen { position: relative; background: url(../img/bg/screen_bg-1.jpg) no-repeat top center/cover; min-height: 600px; height: 0; }
 .screen__inner { height: 100%; text-align: center; }
 .screen__inner::before { content: ""; display: inline-block; vertical-align: middle; height: 100%; }
 .screen__title { display: inline-block; vertical-align: middle; margin-top: -50px; font-size: 45px; text-transform: uppercase; line-height: 1.33; color: #fff; text-align: center; font-family: GothamPro-Bold, Arial, sans-serif; }
@@ -1246,10 +1246,10 @@ img { display: block; max-width: 100%; }
 .calculate__floor { width: 33.33333%; float: left; padding-top: 6px; padding-bottom: 1px; font-size: 30px; text-align: center; white-space: nowrap; line-height: 30px; cursor: pointer; font-family: GothamPro-Bold, Arial, sans-serif; border-left: 2px solid #bababa; background-color: #fff; -webkit-transition: 0.3s ease-in; transition: 0.3s ease-in; }
 .calculate__floor:first-of-type { border-left: none; }
 .calculate__floor--sm { font-size: 12px; line-height: 1; }
-.calculate__input:checked + .calculate__floor { background-color: #a2b333; color: #fff; }
+.calculate__input:checked + .calculate__floor { background-color: black; color: #fff; }
 .calculate__input:checked + .calculate__label::after { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
 .calculate__area { margin-top: 32px; }
-.calculate__inner { padding: 16px 30px 33px; border: 1px solid #a2b333; *zoom: 1; }
+.calculate__inner { padding: 16px 30px 33px; border: 1px solid black; *zoom: 1; }
 .calculate__inner:after { content: " "; display: table; clear: both; }
 .calculate__inner-col { float: left; width: 50%; text-align: left; }
 .calculate__inner-col:last-of-type { padding-left: 30px; }
@@ -1279,10 +1279,10 @@ img { display: block; max-width: 100%; }
 .ui-corner-all { border-radius: 0; }
 
 .ui-widget.ui-widget-content { border: none; cursor: pointer; }
-.ui-widget.ui-widget-content .ui-state-default { height: 37px; width: 9px; background-color: #a2b333; border-radius: 0; border: none; }
+.ui-widget.ui-widget-content .ui-state-default { height: 37px; width: 9px; background-color: black; border-radius: 0; border: none; }
 .ui-widget.ui-widget-content .ui-state-default:before { content: ""; position: absolute; left: -10px; top: -5px; right: -10px; bottom: -5px; z-index: 1; }
 
-.ui-slider-range { background-color: #a2b333; }
+.ui-slider-range { background-color: black; }
 
 .ui-widget input { position: absolute; bottom: -55px; width: 80px; height: 50px; font-size: 30px; color: #000; background-color: transparent; font-family: GothamPro-Bold, Arial, sans-serif; text-align: center; }
 
@@ -1385,15 +1385,15 @@ img { display: block; max-width: 100%; }
 .questions { padding: 75px 0 63px; }
 .questions__accordion { margin-top: 37px; }
 
-.accordion__title.is-active .accordion__title-in { background-color: #a2b333; color: #fff; }
+.accordion__title.is-active .accordion__title-in { background-color: #ef7f1a; color: #fff; }
 .accordion__title.is-active .accordion__inner { border-bottom-color: #ef7f1a; }
 .accordion__title.is-active .accordion__icon { color: #fff; -webkit-transform: translate(0); -ms-transform: translate(0); transform: translate(0); }
 .accordion__title + .accordion__title { margin-top: 40px; }
-.accordion__title-in { position: relative; padding: 24px 70px 23px 37px; border: 1px solid #a2b333; border-left: 10px solid #a2b333; cursor: pointer; -webkit-transition: 0.3s ease-in; transition: 0.3s ease-in; }
+.accordion__title-in { position: relative; padding: 24px 70px 23px 37px; border: 1px solid black; border-left: 10px solid black; cursor: pointer; -webkit-transition: 0.3s ease-in; transition: 0.3s ease-in; }
 .accordion__inner { display: none; padding: 25px 35px 25px 39px; border: 1px solid #ef7f1a; border-left: 10px solid #ef7f1a; border-top: none; -webkit-box-shadow: 0 1px 13px rgba(0, 0, 1, 0.25); box-shadow: 0 1px 13px rgba(0, 0, 1, 0.25); }
 .accordion__content { line-height: 1.44; }
 .accordion__content--color { color: #ef7f1a; }
-.accordion__icon { position: absolute; right: 19px; top: -webkit-calc(50% - 12px); top: calc(50% - 12px); color: #a2b333; font-size: 24px; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); -webkit-transition: 0.3s ease-in; transition: 0.3s ease-in; }
+.accordion__icon { position: absolute; right: 19px; top: -webkit-calc(50% - 12px); top: calc(50% - 12px); color: #ef7f1a; font-size: 24px; -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); -webkit-transition: 0.3s ease-in; transition: 0.3s ease-in; }
 
 .ask { padding: 70px 0 80px; background: url(../img/bg/ask_bg.jpg) no-repeat top center/cover; color: #fff; }
 .ask.is-mobile { display: none; background-image: url(../img/bg/features_bg-3.jpg); background-position: center center; background-size: cover; }
@@ -1425,7 +1425,7 @@ img { display: block; max-width: 100%; }
 
 .video { padding-bottom: 80px; }
 
-.footer { padding: 22px 0 33px; background-color: #062b17; }
+.footer { padding: 22px 0 33px; background-color: black; }
 .footer__logo { float: left; margin-top: 8px; }
 .footer__number { float: left; margin: 23px 0 0 60px; font-size: 24px; color: #fff; text-decoration: none; font-family: GothamPro-Bold, Arial, sans-serif; }
 

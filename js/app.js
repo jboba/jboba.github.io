@@ -103,9 +103,9 @@ $(document).ready(function () {
 
 		sldArea.slider({
 			range: "min",
-			value: 42,
-			min: 1,
-			max: 300,
+			value: 3.6,
+			min: 2,
+			max: 10,
 			slide: function (event, ui) {
 				sldOutput.val(ui.value);
 			}

@@ -1213,7 +1213,7 @@ img { display: block; max-width: 100%; }
 .call__number { display: block; font-size: 24px; font-family: GothamPro-Bold, Arial, sans-serif; color: #fff; text-decoration: none; }
 .call__btn { display: inline-block; margin-top: 3px; padding: 9px 23px; font-size: 14px; letter-spacing: 0.05em; }
 
-.screen { position: relative; background: url(../img/bg/screen_bg-1.jpg) no-repeat top center/cover; min-height: 600px; height: 0; }
+.screen { position: relative; background: url(../img/bg/screen_bg.jpg) no-repeat top center/cover; min-height: 600px; height: 0; }
 .screen__inner { height: 100%; text-align: center; }
 .screen__inner::before { content: ""; display: inline-block; vertical-align: middle; height: 100%; }
 .screen__title { display: inline-block; vertical-align: middle; margin-top: -50px; font-size: 45px; text-transform: uppercase; line-height: 1.33; color: #fff; text-align: center; font-family: GothamPro-Bold, Arial, sans-serif; }

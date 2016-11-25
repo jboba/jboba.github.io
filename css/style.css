@@ -1198,7 +1198,7 @@ h2 { font-size: 30px; text-align: center; font-family: GothamPro-Bold, Arial, sa
 
 img { display: block; max-width: 100%; }
 
-.header { position: relative; z-index: 1; padding: 17px 0; background-color: black; }
+.header { position: fixed; width:100%; z-index: 1000; padding: 17px 0; background-color: black; }
 .header__logo { float: left; }
 .header__call { float: right; *zoom: 1; }
 .header__call:after { content: " "; display: table; clear: both; }

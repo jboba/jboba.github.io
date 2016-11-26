@@ -295,7 +295,7 @@ $(document).ready(function () {
 				searchControlProvider: 'yandex#search'
 			}),
 				myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-					hintContent: 'Русский Терем'
+					hintContent: 'Rust auto'
 				}, {
 					iconLayout: 'default#image',
 					iconImageHref: 'img/logo-map.png',

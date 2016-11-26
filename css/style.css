@@ -1538,7 +1538,7 @@ img { display: block; max-width: 100%; }
  .nav.is-active{ pointer-events: auto; -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); }
  .nav__link{ display: block; color: #000000; margin-left: 0; padding-left: 24px; font-size: 12px; padding-top: 10px; padding-bottom: 10px; }
  .nav__link + .nav__link{ margin-left: 0; }
- .call__number{ float: none; margin-right: 22px; margin-top: 6px; font-size: 15px; display: inline-block; vertical-align: middle; }
+ .call__number{ float: none; margin-right: auto; margin-top: 6px; font-size: 15px; display: inline-block; vertical-align: middle; }
  .call__btn{ float: none; vertical-align: middle; padding-left: 15px; padding-right: 15px; }
  .screen{ min-height: 320px; }
  .screen__title{ max-width: 90%; font-size: 18px; }
